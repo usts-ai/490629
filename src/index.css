@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F0F4F8;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Syne', 'Outfit', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #002D62;
+  border-radius: 999px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
